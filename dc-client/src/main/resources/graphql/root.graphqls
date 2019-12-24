@@ -1,0 +1,7 @@
+type Query {
+    findAllDataItems:[DataItem]
+    findOneDataItem(id : String!):DataItem
+}
+
+type Mutation{
+}

@@ -1,0 +1,13 @@
+type DataItem implements BaseEntity{
+    id: ID!
+    name: String!
+    createTime : String!
+    updateTime: String!
+}
+
+interface BaseEntity{
+   createTime: String!
+   updateTime: String!
+}
+
+
